@@ -6,7 +6,7 @@ Enclosed in this document are organizational guidelines for CSS development. I d
 
 Ideas are always welcome. Please contribute!
 
-### Table of Contents
+### Table of contents
 
 - [General principles](#general-principles)
 	- [Indentation](#indentation)
@@ -53,7 +53,9 @@ Remove any trailing whitespace in your code, wherever possible. If your text edi
 <a name=indentation></a>
 ## Naming conventions
 
-Instead of presentational or cryptic names,  try to write ID and class names that reflect the purpose of the property in question, or that are otherwise generic.
+I use a simplified version of the [BEM](http://bem.info/method/definitions/), or "Block Element Modifier" methodology for naming CSS ID and class names.
+
+Instead of presentational or cryptic names, try to write ID and class names that reflect the purpose of the property in question, or that are otherwise generic.
 
 <table>
 	<thead>
@@ -72,8 +74,6 @@ Instead of presentational or cryptic names,  try to write ID and class names tha
 	</tr>
 </table>
 
-I prefer to use a simplified version of the [BEM](http://bem.info/method/definitions/), or "Block Element Modifier" methodology for naming CSS ID and class names.
-
 <a name=naming-explanation></a>
 ### Explanation
 
@@ -86,7 +86,7 @@ These blocks will often have various **"elements"** that perform certain functio
 <a name=naming-usage></a>
 ### Usage
 
-When writing CSS IDs and class names, use **hyphens** to separate the name of the block from the name of the element, and use **underscores** to separate words in long names.
+When writing CSS ID and class names, use **hyphens** to separate the name of the block from the name of the element, and use **underscores** to separate words in long names.
 
 This makes it easy to double-click and select different portions of the name, and easy to distinguish between a block name and an element name.
 
@@ -132,29 +132,29 @@ Well-commented code is always a tremendous help for all, but especially for new 
 
 Always include a "Table of contents" at the top of the CSS file. This gives developers an overview of the sections within the file, and instructions on how to use the text editor’s built-in “find” function to navigate to a specific section in the code.
 
-	/* ========================================================================= *\
+	/* ================================================================== *\
 	   Table of contents
 	   (Ctrl/Cmd + F, and search for `$section` to jump to a section)
-	   01. Base................Normalize.css (minified), and some important styles
+	   01. Base................Normalize.css (minified), important styles
 	   02. Typography..........Basic typography elements
 	   03. Non-typography......Important elements that are not type-based
-	   04. Grids...............A simple, nestable grid system and width classes
-	   05. Layout..............Common layout items (wrappers, wells, islands, etc)
+	   04. Grids...............A simple grid system and width classes
+	   05. Layout..............Common layout items (wells, islands, etc)
 	   06. Buttons.............Basic styles, sizes, and shapes
 	   07. Tables..............Styles for tabular data
 	   08. Main................Your styles go here!
 	   09. Helpers.............Some useful, global classes
 	   10. Print...............Inlined, barebones print styles
-	\* ========================================================================= */
+	\* ================================================================== */
 
 <a name=comments-section-blocks></a>
 ### Section blocks
 
 Use the following comment style to define a new section in your stylesheet. Make sure to add the "($section)" portion to the comment block so that developers can use their text editors’ built-in “find” function to navigate to that section in the code.
 
-	/* ========================================================================= *\
+	/* ================================================================== *\
 	   Section ($section)
-	\* ========================================================================= */
+	\* ================================================================== */
 
 <a name=comments-subsection-description-blocks></a>
 ### Sub-section / Description blocks
