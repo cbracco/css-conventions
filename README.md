@@ -106,7 +106,7 @@ This makes it easy to double-click and select different portions of the name, an
 	.post-title   {} /* Element */
 	.post-date    {} /* Element */
 	.post-excerpt {} /* Element */
-	.post.last    {} /* Modifier */
+	.post_last    {} /* Modifier */
 
 <a name=naming-ids-vs-classes></a>
 ### IDs vs. classes
