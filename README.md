@@ -113,7 +113,7 @@ This makes it easy to double-click and select different portions of the name, an
 
 **Use classes whenever possible.** IDs are unique; classes are not. IDs should only appear once on any given page, while classes can be used multiple times on any given page.
 
-Ideally, I’d recommend only using IDs when you need to target an element with JavaScript.
+I’d recommend only using IDs when you need to build navigation with anchor links, or when you need to target an element with JavaScript.
 
 <a name=comments></a>
 ## Comments
