@@ -53,7 +53,7 @@ Remove any trailing whitespace in your code, wherever possible. If your text edi
 <a name=indentation></a>
 ## Naming conventions
 
-I use a simplified version of the [BEM](http://bem.info/method/definitions/), or "Block Element Modifier" methodology for naming CSS ID and class names.
+I use a simplified version of the [BEM](http://bem.info/method/definitions/), or "Block Element Modifier" methodology for naming IDs and classes.
 
 Instead of presentational or cryptic names, try to write ID and class names that reflect the purpose of the property in question, or that are otherwise generic.
 
@@ -86,7 +86,7 @@ These blocks will often have various **"elements"** that perform certain functio
 <a name=naming-usage></a>
 ### Usage
 
-When writing CSS ID and class names, use **hyphens** to separate the name of the block from the name of the element, and use **underscores** to separate words in long names.
+When writing ID and class names, use **hyphens** to separate the name of the block from the name of the element, and use **underscores** to separate words in long names.
 
 This makes it easy to double-click and select different portions of the name, and easy to distinguish between a block name and an element name.
 
