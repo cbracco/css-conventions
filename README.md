@@ -1,4 +1,4 @@
-# CSS Style Guide
+# CSS Conventions
 
 *inspired by [idiomatic-css](https://github.com/necolas/idiomatic-css)*
 
