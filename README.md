@@ -53,7 +53,7 @@ Remove any trailing whitespace in your code, wherever possible. If your text edi
 <a name=indentation></a>
 ## Naming conventions
 
-I use a simplified version of the [BEM](http://bem.info/method/definitions/), or "Block Element Modifier" methodology for naming IDs and classes.
+I prefer the [BEM](http://bem.info/method/definitions/), or "Block Element Modifier" methodology for naming IDs and classes.
 
 Instead of presentational or cryptic names, try to write ID and class names that reflect the purpose of the property in question, or that are otherwise generic.
 
@@ -70,7 +70,7 @@ Instead of presentational or cryptic names, try to write ID and class names that
 	
 	<tr>
 		<td><code>.button-green {}</code> - presentational</td>
-		<td><code>.primary {}</code> - generic & reusable</td>
+		<td><code>.button--primary {}</code> - generic & reusable</td>
 	</tr>
 </table>
 
@@ -95,18 +95,18 @@ This makes it easy to double-click and select different portions of the name, an
 
 #### Generic structure
 
-	.block_name              {} /* Block */
-	.block_name-element_name {} /* Element */
-	.modifier_name           {} /* Modifier */
+	.block-name               {} /* Block */
+	.block-name__element-name {} /* Element */
+	.block-name--modifier     {} /* Modifier */
 
 #### Simple blog post example
 
-	.post         {} /* Block */
-	.post-image   {} /* Element */
-	.post-title   {} /* Element */
-	.post-date    {} /* Element */
-	.post-excerpt {} /* Element */
-	.post_last    {} /* Modifier */
+	.post          {} /* Block */
+	.post__image   {} /* Element */
+	.post__title   {} /* Element */
+	.post__date    {} /* Element */
+	.post__excerpt {} /* Element */
+	.post--last    {} /* Modifier */
 
 <a name=naming-ids-vs-classes></a>
 ### IDs vs. classes
