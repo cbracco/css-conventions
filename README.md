@@ -122,7 +122,7 @@ Well-commented code is always a tremendous help for all, but especially for new 
 
 * Place comments on a new line, above their subject.
 * Avoid end-of-line comments.
-* Keep line-length at a sensible maximum (The [Python convention of 72 characters](http://www.python.org/dev/peps/pep-0008/#maximum-line-length) is recommended).
+* Keep line-length at a sensible maximum (somewhere around the [Python convention of 72 characters](http://www.python.org/dev/peps/pep-0008/#maximum-line-length) is recommended. I personally use **80 characters**).
 * Make liberal use of comments to break code up into sensible sections.
 
 **Pro-tip:** configure your text editor to provide you with keyboard shortcuts to output the agreed-upon comment patterns.
