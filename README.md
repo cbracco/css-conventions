@@ -1,6 +1,6 @@
 # CSS Conventions
 
-*inspired by [idiomatic-css](https://github.com/necolas/idiomatic-css)*
+*based on [idiomatic-css](https://github.com/necolas/idiomatic-css)*
 
 Enclosed in this document are organizational guidelines for CSS development. I do not wish to impose my style preferences on your code; however, outlining some common, sensible patterns will help keep your codebase lean and more readable for all developers involved, whether new or existing.
 
