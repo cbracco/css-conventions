@@ -34,7 +34,7 @@ Ideas are always welcome. Please contribute!
 <a name=indentation></a>
 ### Indentation
 
-Never mix spaces and tabs when indenting code. My indentation style preference is **2 spaces**.
+Never mix spaces and tabs when indenting code. My indentation style preference is **2 spaces**. It’s the only way to ensure that your code will render the same way in any environment.
 
 <a name=capitalization></a>
 ### Capitalization
